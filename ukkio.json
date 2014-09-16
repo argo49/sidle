@@ -1,0 +1,14 @@
+{
+    "name": "test",
+    "version": "0.0.0",
+    "author": "Tyler Argo",
+    "main": "index.html",
+    "path": "",
+    "artworks": {},
+    "devices": [
+        "desktop",
+        "tablet",
+        "mobile"
+    ],
+    "parentalControl": false
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grounds" tilewidth="32" tileheight="32">
+  <image source="environment.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="goal" tilewidth="32" tileheight="32">
+  <image source="goal.png" width="32" height="32"/>
+ </tileset>
+ <layer name="floor" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPIpJxADrnAGR
+  </data>
+ </layer>
+ <layer name="walls" width="20" height="20">
+  <properties>
+   <property name="collidable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYBoCmFIw2M1DN5OaZo2aN2reqHlD27zBigGDPQEf
+  </data>
+ </layer>
+ <objectgroup name="goal" width="20" height="20">
+  <properties>
+   <property name="collidable" value="false"/>
+  </properties>
+  <object gid="1" x="576" y="160"/>
+  <object gid="17" x="576" y="160"/>
+ </objectgroup>
+</map>
