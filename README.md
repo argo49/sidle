@@ -3,7 +3,7 @@ sidle
 
 A canvas based game all about getting a box in a hole.
 
-I made this project a while ago. Hopefully I'll be able to finish it someday.
+I made this project a while ago, hopefully I'll be able to finish it someday!
 
 Running it
 ==========
